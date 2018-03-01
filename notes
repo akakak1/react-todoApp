@@ -1,18 +1,6 @@
+To add a variable:::
+heroku config set: name=Amit
 
-using NODE_ENV we customized the webpack depending on the environment it was running in.
-
-Now we will use Environment variables to specify different firebase database credentials depending on the environment.
-
-
-
-NOTE ::::::::::::::::::::   WHEN running test   ::::::::::::::::::::::::
-
-in package.json: 
-"test": "NODE_ENV=test karma start"    // this doesnt work when we run : npm test 
-BUT
-"test": "kama start"    and setting  NODE_ENV=test with hand will work ....
-.....ie Do this:::::::::: NODE_ENV=test npm test   ::::::::::::   this will work :::::
-ALSO note:  if you dont set NODE_ENV=test then production database will be deleted 
-
-NOTE:::: from github :::  NODE_ENV=test doesnt work on WINDOWS.
+to remove a variable: 
+heroku config unset: name
 
