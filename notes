@@ -1,6 +1,8 @@
-To add a variable:::
-heroku config set: name=Amit
 
-to remove a variable: 
-heroku config unset: name
 
+
+
+
+
+
+flattenChildren()  error after lec 145
